@@ -25,8 +25,8 @@ jobs:
       - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
-      -  run: pip install ruff==0.15.11
-      -  name: Reglas de estilo y errores comunes
+      - run: pip install ruff==0.15.11
+      - name: Reglas de estilo y errores comunes
         run:  ruff check .
       - name:  formato del codigo
         run: ruff format --check .
