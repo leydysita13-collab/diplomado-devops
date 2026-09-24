@@ -32,6 +32,8 @@ jobs:
         run: ruff format --check .
   
   pruebas:
+    name: Pruebas
+    needs: lint
     runs-on: ubuntu-latest   # máquina nueva y vacía
     steps:
       - uses: actions/checkout@v7
