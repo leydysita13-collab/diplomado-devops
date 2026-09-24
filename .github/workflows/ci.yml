@@ -7,7 +7,6 @@
 # Reto 4 — agregar el job del quality gate del modelo.
 #
 # Documentación: https://docs.github.com/actions
-
 name: CI
 
 on:                        # disparadores
